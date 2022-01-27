@@ -3,6 +3,14 @@ package com.company.algolithm;
 import java.util.ArrayList;
 import java.util.Scanner;
 
+/**
+ * 문자열 뒤집기
+ * : N개의 단어를 입력된 순서대로 한 줄에 하나씩 뒤집어서 출력
+ * input : 2, {lava, spoon}
+ * output : {aval, noops}
+ * ArrayList
+ * StringBuilder().reverse().toString()
+ */
 public class ch04 {
     public ArrayList<String> solution(String[] arr){
         ArrayList<String> answer = new ArrayList<>();
