@@ -10,8 +10,22 @@ import java.util.Scanner;
  * output: YES
  */
 public class ch08 {
-    public String solution(String str){
+    public String solution(String str) {
         String answer = "";
+        str = str.toUpperCase().replaceAll("[^A-Z]","");
+        char[] tmp = str.toCharArray();
+        int lt = 0, rt = str.length()-1;
+
+        while(lt<rt) {
+            if(tmp[lt] != tmp[rt]){
+                answer = "NO";
+                break;
+            } else {
+                answer = "YES";
+                lt++;
+                rt--;
+            }
+        }
         return answer;
     }
     public static void main(String[] args) {
