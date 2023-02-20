@@ -2,7 +2,7 @@ package com.company.algolithm;
 
 import java.util.*;
 
-//문자찾기
+//문자찾기 23.02.20 복습완료
 public class ch01 {
     public int solution(String str, char t){
         int answer = 0;

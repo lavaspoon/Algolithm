@@ -3,7 +3,7 @@ package com.company.algolithm;
 import java.util.Scanner;
 
 /**
- * 문장 속 가장 긴 단어 출력
+ * 문장 속 가장 긴 단어 출력 23.02.20 복습완료
  */
 public class ch03 {
     public String solution(String str){

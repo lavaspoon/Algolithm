@@ -3,7 +3,7 @@ package com.company.algolithm;
 import java.util.Scanner;
 
 /**
- * 입력한 문자열 대소문자 변환
+ * 입력한 문자열 대소문자 변환 23.02.20 복습완료
  */
 public class ch02 {
     public String solution(String str){
