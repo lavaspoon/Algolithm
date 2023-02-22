@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 /**
- * 문자열 뒤집기
+ * 문자열 뒤집기 23.02.21 복습완료
  * : N개의 단어를 입력된 순서대로 한 줄에 하나씩 뒤집어서 출력
  * input : 2, {lava, spoon}
  * output : {aval, noops}

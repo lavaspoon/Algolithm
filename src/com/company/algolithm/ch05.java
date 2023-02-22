@@ -3,7 +3,7 @@ package com.company.algolithm;
 import java.util.Scanner;
 
 /**
- * 특정문자 뒤집기
+ * 특정문자 뒤집기 23.02.21 복습완료
  * : 영어 알파벳과 특수문자 중, 영어 알파벳만 뒤집어 출력
  * input: ab@#cd
  * output: dc@#ba

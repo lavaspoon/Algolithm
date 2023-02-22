@@ -3,7 +3,7 @@ package com.company.algolithm;
 import java.util.Scanner;
 
 /**
- * 중복문자제거
+ * 중복문자제거 23.02.21 복습완료
  * > 소문자로 된 한개의 문자열이 입력되며 중복된 문자를 제거하고 출력,
  * input: ksekkset
  * output: ksek
