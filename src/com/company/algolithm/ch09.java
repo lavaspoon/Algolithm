@@ -3,7 +3,7 @@ package com.company.algolithm;
 import java.util.Scanner;
 
 /**
- * 숫자추출
+ * 숫자추출 23.02.22 복습완료
  * > 문자와 숫자가 섞여있는 문자열이 주어지면 그 중 숫자만 추출하여 그 순서대로 자연수를 만듭니다.
  * input: g0en2T0s8eSoft
  * output: 208

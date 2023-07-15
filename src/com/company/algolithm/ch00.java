@@ -3,25 +3,23 @@ package com.company.algolithm;
 import java.util.Scanner;
 
 public class ch00 {
-    public String solution(String str){
+    public int solution(String str){
         String answer = "";
-        int max = 0;
+        char[] chars = str.toUpperCase().toCharArray(); //String > Char Array
 
-        String[] data = str.split(" ");
-
-        for(String x: data){
-            if(max < x.length()){
-                max = x.length();
-                answer = x;
+        for(char x: chars){
+            if(Character.isDigit(x)){
+                answer += x;
             }
         }
 
-        return answer;
+        return Integer.parseInt(answer);
     }
-    public static void main(String[] args){
+    public static void main(String[] args) {
         ch00 T = new ch00();
         Scanner sc = new Scanner(System.in);
-        String str = sc.nextLine();
+
+        String str = sc.next();
         System.out.println(T.solution(str));
     }
 }

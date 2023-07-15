@@ -3,7 +3,7 @@ package com.company.algolithm;
 import java.util.Scanner;
 
 /**
- * 회문문자열
+ * 회문문자열 23.02.22 복습완료
  * > 앞에서 읽을 때나 뒤에서 읽을 때나 같은 문자열을 회문 문자열이라고 한다.
  * 문자열이 입력되면 해당 문자열이 회문 문자열이면 "YES", 회문 문자열이 아니면 “NO"를 출력
  * input: gooG
