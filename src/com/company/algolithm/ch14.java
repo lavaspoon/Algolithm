@@ -2,7 +2,7 @@ package com.company.algolithm;
 
 import java.util.Scanner;
 
-//git commit
+//git commit origin --
 public class ch14 {
 
     public static void main(String[] args) {
