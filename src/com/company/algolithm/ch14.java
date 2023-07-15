@@ -1,5 +1,5 @@
 package com.company.algolithm;
 
-//git commit 1
+//git commit origin
 public class ch14 {
 }
